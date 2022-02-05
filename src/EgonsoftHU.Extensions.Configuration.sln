@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{62855431-EABA-4223-945D-5B5E9B53FA99}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		app.manifest = app.manifest
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
+		GlobalAssemblyInfo.cs = GlobalAssemblyInfo.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{58AA06D1-5F92-4A0D-96AE-D66051200AC6}"
+	ProjectSection(SolutionItems) = preProject
+		..\LICENSE = ..\LICENSE
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EgonsoftHU.Extensions.Configuration.ConfigurationManager", "EgonsoftHU.Extensions.Configuration.ConfigurationManager\EgonsoftHU.Extensions.Configuration.ConfigurationManager.csproj", "{35E5694D-852E-4256-8AA2-3F7665B468E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35E5694D-852E-4256-8AA2-3F7665B468E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35E5694D-852E-4256-8AA2-3F7665B468E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35E5694D-852E-4256-8AA2-3F7665B468E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35E5694D-852E-4256-8AA2-3F7665B468E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47AECE4B-DD0C-47AA-9912-984584B018FF}
+	EndGlobalSection
+EndGlobal
