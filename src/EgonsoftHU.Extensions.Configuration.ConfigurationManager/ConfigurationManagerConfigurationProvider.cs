@@ -24,8 +24,13 @@ namespace EgonsoftHU.Extensions.Configuration
                 Data.Add($"{nameof(ConfigurationManager.ConnectionStrings)}:{setting.Name}", setting.ConnectionString);
             }
 
-            foreach (string key in ConfigurationManager.AppSettings.AllKeys)
+            foreach (string? key in ConfigurationManager.AppSettings.AllKeys)
             {
+                if (key is null)
+                {
+                    continue;
+                }
+
                 Data.Add(key, ConfigurationManager.AppSettings[key]);
             }
         }
